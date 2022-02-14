@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Id card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="webname">
+      <p id="dev"><span>D</span>ev Fin <span>d</span>er</p>
+    </div>
+    <div class="inputs">
+      <input
+        class="form-control"
+        type="text"
+        placeholder="Github Username"
+        autocomplete="off"
+        id="gusername"
+      />
+      <button id="btn" type="button" class="btn btn-primary mt-3">
+        Search
+      </button>
+    </div>
+    <br />
+    <p id="res"></p>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <p
+            id="profile"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/David_Gandy_for_GQ_Japan_by_Arnaldo_Anaya-Lucca_%282009%29-a_substOP.jpg/220px-David_Gandy_for_GQ_Japan_by_Arnaldo_Anaya-Lucca_%282009%29-a_substOP.jpg"
+            style="
+              width: 80px;
+              height: 90px;
+              padding-top: 10px;
+              border-radius: 40%;
+              border-radius: 50%;
+            "
+            alt=""
+          ></p>
+          <h1 id="name">Git User Name</h1>
+          <p id="ID">ID</p>
+          <p id="Date">Joined at</p>
+          <p id="repo">Repos</p>
+          <p id="follower">Follower</p>
+          <p id="following">Following</p>
+
+          <div class="git">
+            <p href="" class="fas fa-compass"><a id="gitid"></a></p>
+          </div>
+          <div class="twitter">
+            <p href="" class="fab fa-twitter"><a id="twit"></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p id="dp"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
